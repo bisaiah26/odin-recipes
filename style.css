@@ -6,15 +6,36 @@ body {
     display: grid;
     place-items: center;
 }
-h1 {
-    background-color:inherit
+h1, p, ul, li, a {
+background-color: inherit;
 }
 
-.hometitle {
-    color: rgb(245, 210, 255);
+div {
     box-sizing: border-box;
+    background-color: rgb(227, 188, 242);
     text-align: center;
-    border: outset black 5px;
-    background-color: indigo;
+    border: solid indigo 2px;
     width: 500px;
+    margin-bottom: 2px;
+}
+
+.button {
+    display: inline-block;
+    width: 175px;
+    border: solid 3px rgb(76, 124, 210);
+    background-color:powderblue;
+    padding: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 3px;
+}
+
+.button:hover {
+    background-color: rgb(76, 124, 210);
+    color: white;
+}
+
+ul {
+    padding-left: 0px;
+    list-style-position: inside;
 }
