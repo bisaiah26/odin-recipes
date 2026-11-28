@@ -58,6 +58,11 @@ img {
     background-color:lemonchiffon;
 }
 
+.eg {
+    background-color: rgb(255, 243, 164);
+    border: solid 2px rgb(215, 160, 0)
+}
+
 .soub {
     color: rgb(200, 255, 200);
     background-color: rgb(57, 102, 35);
