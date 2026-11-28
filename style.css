@@ -32,8 +32,8 @@ div {
 .button {
     display: inline-block;
     width: 175px;
-    border: solid 3px rgb(76, 124, 210);
-    background-color:powderblue;
+    border: solid 3px hotpink;
+    background-color:rgb(255, 182, 240);
     padding: 3px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -41,7 +41,7 @@ div {
 }
 
 .button:hover {
-    background-color: rgb(76, 124, 210);
+    background-color: rgb(255, 105, 180);
     color: white;
 }
 
@@ -59,12 +59,7 @@ img {
 }
 
 .soub {
-        box-sizing: border-box;
-        color: rgb(200, 255, 200);
+    color: rgb(200, 255, 200);
     background-color: rgb(57, 102, 35);
-    text-align: center;
     border: solid rgb(0, 60, 0) 2px;
-    width: 500px;
-    padding: 15px;
-    margin-bottom: 10px;
 }
