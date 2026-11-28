@@ -68,3 +68,8 @@ img {
     background-color: rgb(57, 102, 35);
     border: solid rgb(0, 60, 0) 2px;
 }
+
+.chicken {
+    border: solid 2px sandybrown;
+    background-color:rgb(255, 237, 204);
+}
